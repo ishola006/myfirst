@@ -1,0 +1,36 @@
+nav {
+    display: block;
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    background-color: aquamarine;
+    margin: none;
+    padding: none;
+}
+nav ul {
+    list-style-type: none;
+    margin: none;
+    padding: 8px 10px;
+    height: 30px;
+    overflow: none;
+    background-color: aliceblue;
+
+}
+nav ul li {
+    padding: 0;
+    font-size: 20px;
+    display: inline;
+    margin: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(1, 86, 88);
+    text-align: center;
+    padding: 8px 10px;
+}
+nav ul li a:hover{
+    background-color: rgb(1, 86, 88);
+    color: aliceblue;
+}
